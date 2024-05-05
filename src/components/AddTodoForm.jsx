@@ -13,6 +13,7 @@ const onSubmit = (event) =>{
   if(value){
     dispatch(addTodo({title:value}))
   }
+  setValue("")
 }
 
 return(
@@ -24,7 +25,7 @@ return(
      value={value}
      onChange={(event)=>setValue(event.target.value)}      
     />
-    <button type="submit" className="submit-button">+</button>
+    <button type="submit" className="submit-button" >+</button>
   </form>
 );
 

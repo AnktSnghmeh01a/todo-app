@@ -9,12 +9,13 @@
 
 .form-input input{
   font-size: 1em;
-  padding: 0.2em;
+  padding: 0.5em 0.3em;
   height: 2em;
   border-radius: 1em;
   border: none;
   outline: none;
   padding-left: 1em;
+  box-shadow: inset 1px 0px 6px 0px #0e09097a;
 }
 .submit-button{
   /* height: 1em;
@@ -25,8 +26,9 @@
   outline: none;
   border-radius: 50%;
   border: none;
-  background-color: rgb(201, 18, 201);
+  background-color: #c912c9;
   color: #ffffff;
+  box-shadow: inset 4px 0px 7px 0px #f3f2f2;
 }
 
 /* styling the todo lists */
@@ -36,16 +38,20 @@
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-
-  /* border: 1px solid red; */
+  box-shadow: inset 1px 0px 6px 0px #0e090994;
+  padding: 1em;
+  border-radius: 1em;
 }
 .todo-item{
   display: flex;
   justify-content:space-between;
-  /* border: 1px solid red; */
-  padding: 0.5em;
+  box-shadow: inset -4px -2px 6px 0px #0e09096c;
+    padding: 0.7em 1em;
   background-color: #ffffff;
   border-radius:1em;
+  width: 18em;
+  cursor: pointer;
+
 }
 .item{
   display: flex;
@@ -60,11 +66,12 @@
 .delete-btn{
   background-color: #ff0000;
   width:2em;
-  font-size: 0.7em;
+  font-size: 0.9em;
   padding: 0.3em;
   outline: none;
   border-radius: 50%;
   border: none;
+  box-shadow: 1px ;
   color: #ffffff;
 }
 
