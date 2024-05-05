@@ -1,7 +1,7 @@
 import React from 'react'
 import AddTodoForm from './components/AddTodoForm.jsx'
 import TodoList from './components/TodoList.jsx'
-import "./app.css";
+import "./styles/app.css";
 import "./styles/todoStyles.css"
 
 const App = () => {
