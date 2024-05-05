@@ -48,10 +48,9 @@ const TodoItem = ({id,title,completed})=>{
           <input
             type="checkbox"
             onClick={() => {
-              markCompleteds();
+              markCompleted();
             }}
           />
-          <div className="checkmark smooth-transition"></div>
         </label>
         <p>{title}</p>
       </section>

@@ -1,0 +1,70 @@
+
+/* styling the todo form */
+.form-input{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 0.3em;
+}
+
+.form-input input{
+  font-size: 1em;
+  padding: 0.2em;
+  height: 2em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  padding-left: 1em;
+}
+.submit-button{
+  /* height: 1em;
+  width: 1em; */
+  width:2em;
+  font-size: 1.2em;
+  padding: 0.3em;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(201, 18, 201);
+  color: #ffffff;
+}
+
+/* styling the todo lists */
+
+.todo-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  /* border: 1px solid red; */
+}
+.todo-item{
+  display: flex;
+  justify-content:space-between;
+  /* border: 1px solid red; */
+  padding: 0.5em;
+  background-color: #ffffff;
+  border-radius:1em;
+}
+.item{
+  display: flex;
+  gap: 0.4em;
+}
+.item p{
+  font-size: 1em;
+}
+.item-name input{
+ font-size: 1em;
+}
+.delete-btn{
+  background-color: #ff0000;
+  width:2em;
+  font-size: 0.7em;
+  padding: 0.3em;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  color: #ffffff;
+}
+

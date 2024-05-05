@@ -24,7 +24,7 @@ return(
      value={value}
      onChange={(event)=>setValue(event.target.value)}      
     />
-    <button type="submit">+</button>
+    <button type="submit" className="submit-button">+</button>
   </form>
 );
 

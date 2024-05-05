@@ -4,7 +4,7 @@ import TodoList from './components/TodoList.jsx'
 
 const App = () => {
   return (
-    <>
+    <div className='my-todo'>
      {/* header portion */}
      <header className='todo-header'>
        <h1>TODO APP</h1>
@@ -19,7 +19,7 @@ const App = () => {
     </main>
     
     
-    </>
+    </div>
   )
 }
 
